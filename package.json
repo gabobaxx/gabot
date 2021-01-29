@@ -1,16 +1,17 @@
 {
   "name": "gabot",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "A test bot for telegram. It just for funny and kidding with my friends!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" ",
     "start": "node src/bot.js",
     "dev": "nodemon src/bot.js",
-    "deploy": "git add . && git commit -m \"Deploy Commit\" && git push -u origin master"
+    "deploy": "git commit -m \"Deploy Commit\" && git push -u origin master",
+    "comdev":"git add . && git commit -m \"Development Commit\" && git push -u origin development"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [telegram, bots, tg, bot],
+  "author": "https://github.com/gabrielba15",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
